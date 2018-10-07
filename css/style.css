@@ -1,0 +1,339 @@
+body {
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+/*  --Containers--  */
+
+.container-wrapper {
+    
+    border-color: transparent;
+    
+}
+
+.container-wrapper--red {
+
+    background-color: #ec9f14;
+    color: whitesmoke;
+
+}
+
+
+.content-container {
+
+    padding-top: 75px;
+    padding-bottom: 75px;
+
+}
+
+.alert-container {
+    
+    text-align: center;
+    
+}
+
+
+.callout-container {
+
+    height: 100vh;
+
+
+    background: url("../images/whiskey.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+
+.opaque-overlay {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+
+
+
+/* Navbar */
+
+.navbar {
+
+    margin-bottom: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+    background-color: transparent;
+    border: 0px;
+
+}
+
+.navbar-default .navbar-collapse {
+
+    border-color: transparent;
+
+}
+
+.navbar-default .navbar-toggle {
+
+    border: 0px;
+
+}
+
+.navbar-default .navbar-toggle:hover {
+
+    background-color: transparent;
+
+}
+
+
+.navbar-default .navbar-toggle .icon-bar {
+
+    background-color: azure;
+
+}
+
+.navbar .navbar-brand {
+
+    font-weight: bold;
+    color: white;
+
+}
+
+.navbar .navbar-brand:hover {
+
+    color: white;
+
+}
+
+.navbar-default .navbar-nav a {
+
+    font-weight: bold;
+
+}
+
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+
+    color: white;
+    background-color: transparent;
+
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+
+    color: white;
+}
+
+.navbar-btn {
+
+    border: 0;
+    border-radius: 16px;
+    width: 80px;
+    background-color: #ec9f14;
+    color: white;
+
+}
+
+
+.navbar-btn:hover {
+    background-color: #ff6305;
+    border-color: #ff6305;
+    color: white;
+}
+
+
+
+/* Jumbotron */
+
+.jumbotron {
+
+    background-color: transparent;
+
+}
+
+.jumbotron h1 {
+
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+
+}
+
+.jumbotron .lead {
+
+    color: #e72f12;
+    margin: 25px 0;
+
+}
+
+.jumbotron small {
+
+    font-size: 60%;
+    font-style: italic;
+    color: #dacbcb;
+
+}
+
+/* Block dividers */
+
+.block-dividers {
+
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: black;
+
+}
+
+.block-dividers--azure {
+
+    background-color: azure;
+}
+
+.block-dividers--white {
+
+    color: whitesmoke;
+
+}
+
+
+.block-dividers--short {
+
+    width: 35px;
+}
+
+/* Buttons */
+
+.btn--cta {
+
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+
+
+}
+
+.btn--red {
+
+    color: white;
+    background-color: #ec9f14;
+    border-color: #ec9f14;
+
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+
+    background-color: #ff6305;
+    border-color: #ff6305;
+    color: white;
+
+
+}
+
+
+/* Alert */
+
+.alert-container .col-xs-12 {
+
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+
+.site-wide-alert {
+    color: #5f5647;
+    background-color: #efb244;
+    border-color: #faebcc;
+    padding: 8px 82px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 0px;
+
+}
+
+
+/* Page Headers */
+
+.page-header {
+
+    margin-bottom: 0px;
+    border-bottom: 0px;
+    text-align: center;
+
+}
+
+.page-header h2 {
+
+    margin-bottom: 0px;
+
+}
+
+
+/* Quotes */
+
+.quotes .page-header{
+    
+    margin-bottom: 25px;
+    
+}
+
+
+blockquote.quote {
+    
+    border-left: 0px;
+    
+}
+
+
+/* Feautures */
+
+.features {
+
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.features.glyphicon {
+
+    display: block;
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+
+}
+
+.features .btn {
+
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    color: #ec9f14;
+    margin-top: 15px;
+
+}
